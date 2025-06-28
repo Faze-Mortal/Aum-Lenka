@@ -1,136 +1,28 @@
-# Aum Lenka - Portfolio Website
+👋 Hey, I'm Aum Lenka <br/>
+🎓 Currently a student | B.Tech CSE <br/>
+💡 Learning frontend + backend with a dash of AI <br/>
+💻 Love building fun & functional projects <br/>
+📍 From Odisha, based on caffeine and keyboard clicks <br/>
+[Instagram](https://www.instagram.com/aum.lnk/) <br/>
 
-A modern, responsive portfolio website built with React, Vite, and Tailwind CSS. Features smooth animations, dark mode, and a professional design.
 
-## Features
+## 🌐 Socials:
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/aum.lnk) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:aumlenka51@gmail.com) 
 
-- 🎨 Modern, responsive design
-- 🌙 Dark mode support
-- ✨ Smooth animations with Framer Motion & GSAP
-- 📱 Mobile-first approach
-- ⚡ Fast performance with Vite
-- 🎯 SEO optimized
-- 🔧 Customizable components
+# 💻 Tech Stack:
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![PNPM](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=Faze-Mortal&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=Faze-Mortal&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Faze-Mortal&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-## Tech Stack
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=Faze-Mortal&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-- **Frontend**: React 18
-- **Build Tool**: Vite
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion + GSAP
-- **Icons**: Lucide React
-- **Deployment**: Ready for Vercel/Netlify
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-## Getting Started
+---
+[![](https://visitcount.itsvg.in/api?id=Faze-Mortal&icon=4&color=5)](https://visitcount.itsvg.in)
 
-### Prerequisites
-
-- Node.js 16+ 
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd portfolio
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
-
-4. Open your browser and navigate to `http://localhost:3000`
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
-## Project Structure
-
-```
-├── src/
-│   ├── components/
-│   │   ├── Hero.jsx
-│   │   ├── Skills.jsx
-│   │   ├── Projects.jsx
-│   │   ├── Contact.jsx
-│   │   ├── Navigation.jsx
-│   │   └── ParticleBackground.jsx
-│   ├── ui/
-│   │   └── button.jsx
-│   ├── lib/
-│   │   └── utils.js
-│   ├── assets/
-│   │   └── placeholder.svg
-│   ├── App.jsx
-│   ├── App.css
-│   ├── main.jsx
-│   ├── index.css
-│   ├── useGSAPAnimations.js
-│   └── performance.js
-├── public/
-├── index.html
-├── package.json
-├── vite.config.js
-├── tailwind.config.js
-├── postcss.config.js
-└── README.md
-```
-
-## Customization
-
-### Colors & Theme
-
-The color scheme is defined in `App.css` using CSS custom properties. You can easily modify the colors by updating the `:root` variables.
-
-### Content
-
-Update the content in each component:
-- **Hero.jsx**: Personal information and introduction
-- **Skills.jsx**: Skills and technologies
-- **Projects.jsx**: Portfolio projects
-- **Contact.jsx**: Contact information
-
-### Animations
-
-Custom animations are defined in:
-- `useGSAPAnimations.js` - GSAP animations
-- `App.css` - CSS keyframe animations
-
-## Performance Optimizations
-
-- Lazy loading for components
-- Image optimization utilities
-- Debounced scroll events
-- Intersection Observer for animations
-- Service Worker support
-
-## Browser Support
-
-- Chrome 90+
-- Firefox 88+
-- Safari 14+
-- Edge 90+
-
-## License
-
-MIT License - feel free to use this template for your own portfolio!
-
-## Contact
-
-Aum Lenka - [LinkedIn](https://linkedin.com/in/aumlenka) - [GitHub](https://github.com/aumlenka) 
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
