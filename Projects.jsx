@@ -23,7 +23,7 @@ const Projects = () => {
       tags: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js'],
       category: 'Web Development',
       github: 'https://github.com/Faze-Mortal/pixel-phrase',
-      demo: 'https://pixel-phrase.vercel.app',
+      demo: 'https://pixel-phrase-v5.vercel.app/',
       featured: true
     },
     ...[2,3,4,5,6].map(id => ({

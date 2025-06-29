@@ -46,11 +46,11 @@ const Skills = () => {
       icon: Brain,
       color: 'from-purple-400 to-pink-400',
       skills: [
-        { name: 'TensorFlow', level: 85, description: 'Deep learning model development' },
-        { name: 'PyTorch', level: 82, description: 'Neural network implementation' },
-        { name: 'OpenAI API', level: 90, description: 'LLM integration and fine-tuning' },
-        { name: 'Computer Vision', level: 78, description: 'Image processing and analysis' },
-        { name: 'NLP', level: 80, description: 'Text analysis and generation' }
+        { name: 'TensorFlow', level: 5, description: 'Deep learning model development' },
+        { name: 'PyTorch', level: 5, description: 'Neural network implementation' },
+        { name: 'OpenAI API', level: 5, description: 'LLM integration and fine-tuning' },
+        { name: 'Computer Vision', level: 5, description: 'Image processing and analysis' },
+        { name: 'NLP', level: 5, description: 'Text analysis and generation' }
       ]
     },
     {
@@ -58,11 +58,11 @@ const Skills = () => {
       icon: Zap,
       color: 'from-orange-400 to-red-400',
       skills: [
-        { name: 'Docker', level: 85, description: 'Containerization and deployment' },
-        { name: 'AWS', level: 82, description: 'Cloud infrastructure management' },
-        { name: 'Git', level: 95, description: 'Version control and collaboration' },
-        { name: 'CI/CD', level: 80, description: 'Automated testing and deployment' },
-        { name: 'Kubernetes', level: 75, description: 'Container orchestration' }
+        { name: 'Docker', level: 5, description: 'Containerization and deployment' },
+        { name: 'AWS', level: 5, description: 'Cloud infrastructure management' },
+        { name: 'Git', level: 50, description: 'Version control and collaboration' },
+        { name: 'CI/CD', level: 5, description: 'Automated testing and deployment' },
+        { name: 'Kubernetes', level: 5, description: 'Container orchestration' }
       ]
     }
   ]

@@ -36,7 +36,7 @@ const Contact = () => {
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Mumbai, Maharashtra, India',
+      value: 'Greater Noida, Uttar Pradesh',
       href: '#'
     }
   ]
