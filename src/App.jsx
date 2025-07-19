@@ -24,6 +24,7 @@ function App() {
 
   const handleHomeClick = () => {
     setShowLanding(true);
+    window.scrollTo({ top: 0, behavior: 'auto' });
   };
 
   return (
