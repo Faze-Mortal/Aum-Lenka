@@ -50,8 +50,7 @@ const CustomCursor = () => {
     // Handle hover states
     const handleMouseEnter = (e) => {
       const target = e.target;
-      
-      if (target.matches('a, button, [data-cursor="pointer"]')) {
+      if (target instanceof Element && target.matches('a, button, [data-cursor="pointer"]')) {
         setIsHovering(true);
         setCursorText(target.dataset.cursorText || '');
         
@@ -65,8 +64,7 @@ const CustomCursor = () => {
 
     const handleMouseLeave = (e) => {
       const target = e.target;
-      
-      if (target.matches('a, button, [data-cursor="pointer"]')) {
+      if (target instanceof Element && target.matches('a, button, [data-cursor="pointer"]')) {
         setIsHovering(false);
         setCursorText('');
         
