@@ -15,7 +15,7 @@ function BackgroundMusic() {
     <div style={{ position: "fixed", bottom: 16, right: 16, zIndex: 1000 }}>
       <audio
         ref={audioRef}
-        src={require("../assets/background.mp3")}
+        src="/background.mp3"
         autoPlay
         loop
       />
