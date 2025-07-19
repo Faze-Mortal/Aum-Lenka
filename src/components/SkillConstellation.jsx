@@ -123,6 +123,7 @@ const SkillConstellation = () => {
   ];
 
   useGSAP(() => {
+    if (!constellationRef.current) return;
     // Initial animation for skill nodes
     const nodes = constellationRef.current.querySelectorAll('.skill-node');
     

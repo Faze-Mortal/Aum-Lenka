@@ -13,6 +13,7 @@ const Projects = () => {
   const [hoveredProject, setHoveredProject] = useState(null);
 
   useGSAP(() => {
+    if (!projectsRef.current) return;
     const cards = cardsRef.current.children;
     
     gsap.fromTo(cards, {

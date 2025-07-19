@@ -19,6 +19,7 @@ const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   useGSAP(() => {
+    if (!contactRef.current) return;
     const formElements = formRef.current.children;
     
     gsap.fromTo(formElements, {
