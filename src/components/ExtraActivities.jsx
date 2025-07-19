@@ -12,6 +12,7 @@ const ExtraActivities = () => {
   const cardsRef = useRef();
 
   useGSAP(() => {
+    if (!activitiesRef.current) return;
     const cards = cardsRef.current.children;
     
     gsap.fromTo(cards, {
@@ -32,7 +33,7 @@ const ExtraActivities = () => {
       }
     });
 
-  }, { scope: activitiesRef });
+  }, { scope: activitiesRef.current });
 
   const activities = [
     {

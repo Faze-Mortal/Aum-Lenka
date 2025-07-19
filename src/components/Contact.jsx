@@ -38,7 +38,7 @@ const Contact = () => {
       }
     });
 
-  }, { scope: contactRef });
+  }, { scope: contactRef.current });
 
   const handleInputChange = (e) => {
     setFormData({

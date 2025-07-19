@@ -35,7 +35,7 @@ const Projects = () => {
       }
     });
 
-  }, { scope: projectsRef });
+  }, { scope: projectsRef.current });
 
   const projects = [
     {

@@ -153,7 +153,7 @@ const SkillConstellation = () => {
       });
     });
 
-  }, { scope: constellationRef });
+  }, { scope: constellationRef.current });
 
   // Draw connections between skills
   useEffect(() => {
