@@ -22,6 +22,10 @@ function App() {
     }
   };
 
+  const handleHomeClick = () => {
+    setShowLanding(true);
+  };
+
   return (
     <div className="App">
       <CustomCursor />
@@ -33,7 +37,7 @@ function App() {
         <>
           <ParallaxBackground />
           <AnimatedAssets />
-          <Navigation />
+          <Navigation onHomeClick={handleHomeClick} />
           <Hero />
           <About />
           <Projects />
