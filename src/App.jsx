@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -13,15 +13,19 @@ import './App.css';
 
 function App() {
   const [showLanding, setShowLanding] = useState(true);
+  const musicRef = useRef(null);
 
   const handleEnterPortfolio = () => {
     setShowLanding(false);
+    if (musicRef.current) {
+      musicRef.current.play();
+    }
   };
 
   return (
     <div className="App">
       <CustomCursor />
-      <BackgroundMusic />
+      <BackgroundMusic ref={musicRef} />
       
       {showLanding ? (
         <LandingPage onEnter={handleEnterPortfolio} />

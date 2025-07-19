@@ -1,22 +1,20 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, forwardRef } from "react";
 
-function BackgroundMusic() {
-  const audioRef = useRef(null);
+const BackgroundMusic = forwardRef((props, ref) => {
   const [muted, setMuted] = useState(false);
 
   const toggleMute = () => {
     setMuted((prev) => !prev);
-    if (audioRef.current) {
-      audioRef.current.muted = !audioRef.current.muted;
+    if (ref && ref.current) {
+      ref.current.muted = !ref.current.muted;
     }
   };
 
   return (
     <div style={{ position: "fixed", bottom: 16, right: 16, zIndex: 1000 }}>
       <audio
-        ref={audioRef}
+        ref={ref}
         src="/background.mp3"
-        autoPlay
         loop
       />
       <button onClick={toggleMute} style={{ padding: "8px 16px", borderRadius: 4 }}>
@@ -24,6 +22,6 @@ function BackgroundMusic() {
       </button>
     </div>
   );
-}
+});
 
 export default BackgroundMusic; 
