@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
-const Navigation = () => {
+const Navigation = ({ onHomeClick }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -56,7 +56,13 @@ const Navigation = () => {
             {navItems.map((item, index) => (
               <motion.button
                 key={item.name}
-                onClick={() => scrollToSection(item.href)}
+                onClick={() => {
+                  if (item.name === 'Home' && onHomeClick) {
+                    onHomeClick();
+                  } else {
+                    scrollToSection(item.href);
+                  }
+                }}
                 className="text-gray-300 hover:text-blue-400 transition-colors font-medium relative group"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -93,7 +99,13 @@ const Navigation = () => {
             {navItems.map((item, index) => (
               <motion.button
                 key={item.name}
-                onClick={() => scrollToSection(item.href)}
+                onClick={() => {
+                  if (item.name === 'Home' && onHomeClick) {
+                    onHomeClick();
+                  } else {
+                    scrollToSection(item.href);
+                  }
+                }}
                 className="block w-full text-left text-gray-300 hover:text-blue-400 transition-colors font-medium py-2"
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ 
