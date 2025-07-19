@@ -8,6 +8,7 @@ import ParallaxBackground from './components/ParallaxBackground';
 import LandingPage from './components/LandingPage';
 import CustomCursor from './components/CustomCursor';
 import AnimatedAssets from './components/AnimatedAssets';
+import BackgroundMusic from './components/BackgroundMusic';
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
   return (
     <div className="App">
       <CustomCursor />
+      <BackgroundMusic />
       
       {showLanding ? (
         <LandingPage onEnter={handleEnterPortfolio} />
