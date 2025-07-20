@@ -1,4 +1,4 @@
-import React, { useRef, useState, forwardRef } from "react";
+import React, { useState, forwardRef } from "react";
 
 const BackgroundMusic = forwardRef((props, ref) => {
   const [muted, setMuted] = useState(false);

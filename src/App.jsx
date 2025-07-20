@@ -30,7 +30,6 @@ function App() {
   return (
     <div className="App">
       <CustomCursor />
-      <BackgroundMusic ref={musicRef} />
       
       {showLanding ? (
         <LandingPage onEnter={handleEnterPortfolio} />
@@ -39,6 +38,7 @@ function App() {
           <ParallaxBackground />
           <AnimatedAssets />
           <Navigation onHomeClick={handleHomeClick} />
+          <BackgroundMusic ref={musicRef} />
           <Hero />
           <About />
           <Projects />
