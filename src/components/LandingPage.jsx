@@ -155,7 +155,7 @@ const LandingPage = ({ onEnter }) => {
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -50 }}
-              transition={{ duration: 0.8, ease: 'power3.out' }}
+              transition={{ duration: 0.8, ease: 'easeOut' }}
               className="space-y-8"
             >
               <motion.button
@@ -206,7 +206,7 @@ const LandingPage = ({ onEnter }) => {
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl" />
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-radial from-cyan-500/5 to-transparent rounded-full" />
 
-      <style jsx>{`
+      <style>{`
         @keyframes gridMove {
           0% { transform: translate(0, 0); }
           100% { transform: translate(50px, 50px); }

@@ -7,7 +7,7 @@ import { ExternalLink, Github, Sparkles, Zap, Cpu, Palette } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Projects = () => {
+const ProjectsFixed = () => {
   const projectsRef = useRef(null);
   const cardsRef = useRef(null);
   const [hoveredProject, setHoveredProject] = useState(null);
@@ -348,4 +348,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsFixed;

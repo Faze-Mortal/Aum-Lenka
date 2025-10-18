@@ -155,7 +155,7 @@ const CustomCursor = () => {
         ))}
       </div>
 
-      <style jsx>{`
+      <style>{`
         @keyframes cursorTrail {
           0% {
             transform: scale(1);
